@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', {
+    "title": "HTML Boilerplate"
+  })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <!-- @@include('../layouts/header.html') -->
+
+    <!-- include banner.html -->
+    <!-- @@include('../partials/banner.html') -->
+
+    <main class="main-container">
+      <div class="main-wrapper">
+        <div class="welcome">
+          <h1 class="welcome__title">Hello <br/><span class="welcome__title--large">World.</span></h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, numquam!</p>
+        </div>
+        <div class="form-section">
+          <h2 class="form-section__title">Register</h2>
+          <p class="form-section__hint">Dont have an account? <a class="form-section__link" href="#">Create you account</a>, it takes less than a minute</p>
+          <form class="form-section__form">
+            <div class="form-section__input-wrapper">
+              <label class="form-section__label" for="name">NAME</label>
+              <input class="form-section__input" id="name" type="text"/>
+            </div>
+            <div class="form-section__input-wrapper">
+              <label class="form-section__label" for="email">EMAIL ID</label>
+              <input class="form-section__input" id="email" type="text"/>
+            </div>
+            <div class="form-section__input-wrapper">
+              <label class="form-section__label" for="phone">PHONE NO</label>
+              <input placeholder="+91" class="form-section__input" id="phone" type="text"/>
+            </div>
+            <div class="form-section__input-wrapper form-section__input-wrapper--less-margin">
+              <label class="form-section__label" for="pass">PASSWORD</label>
+              <input type="password" class="form-section__input" id="pass" type="text"/>
+            </div>
+            <div class="form-section__checbox-wrapper">
+              <input id="checkbox" type="checkbox" />
+              <label for="checkbox">I accept terms and conditions & privacy policy</label>
+            </div>
+            <div class="form-section__button-wrapper">
+              <button class="form-section__button" type="button">LOGIN</button>
+            </div>
+            <p class="form-section__hint">Login with social media</p>
+            <div class="form-section__group-button-wrapper">
+              <button class="form-section__button form-section__button--social-media form-section__button--fb" type="button">Facebook</button>
+              <button class="form-section__button form-section__button--social-media form-section__button--tw" type="button">Twitter</button>
+              <button class="form-section__button form-section__button--social-media form-section__button--gg" type="button">Google +</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- include footer.html -->
+    <!-- @@include('../layouts/footer.html') -->
+  </div>
+
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+</html>

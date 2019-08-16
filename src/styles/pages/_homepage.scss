@@ -1,0 +1,113 @@
+body {
+  background: #292c31;
+}
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+}
+.main-wrapper {
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.welcome {
+  background: #444444;
+  padding: 50px;
+  color: #fff;
+  flex: 0 0 50%;
+}
+.welcome__title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.welcome__title--large {
+  font-size: 1.2em;
+}
+.form-section {
+  flex: 0 0 50%;
+  background: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.form-section__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.form-section__hint {
+  font-size: 12px;
+}
+.form-section__link {
+  color: #89d3db;
+}
+.form-section__form {
+  margin: 40px 0;
+}
+.form-section__input-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+.form-section__input-wrapper--less-margin{
+  margin-bottom: 20px;
+}
+.form-section__label {
+  flex: 0 0 100px;
+  font-weight: 600;
+}
+.form-section__input {
+  border: none;
+}
+.form-section__input:focus {
+  outline: none;
+}
+.form-section__checbox-wrapper {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.form-section__checbox-wrapper > label {
+  margin-left: 10px;
+}
+.form-section__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-section__button {
+  border: none;
+  background: #fa1744;
+  box-shadow: 0 0 7px rgba(250, 23, 68, 0.7);
+  color: #fff;
+  border-radius: 15px;
+  padding: 7px 40px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.form-section__group-button-wrapper {
+  margin-top: 15px;
+}
+.form-section__button--social-media {
+  padding: 5px 0;
+  width: 80px;
+  text-align: center;
+  box-shadow: none;
+  margin-right: 10px;
+}
+.form-section__button--fb {
+  background: #225498;
+}
+.form-section__button--tw {
+  background: #1da0f1;
+}
+.form-section__button--gg {
+  background: #dd4b38;
+}
